@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Server Hub</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="dashboard.js"></script>
+    <script src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d063311697.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="first-half">
+        <h1>Server Hub</h1>
+      </div>
+      <div class="second-half">
+        <button class="logout-button" onclick="logoutOnClick()">
+          <i class="fa-solid fa-right-from-bracket"></i>
+        </button>
+      </div>
+    </div>
+    <div class="dashboard">
+      <div class="button-container">
+        <a href="http://admin.kushshah.net:3000">
+          <button class="dash-item">AdGuard Home</button>
+        </a>
+        <a href="https://kushshah.net">
+          <button class="dash-item">My Site</button>
+        </a>
+        <a href="http://admin.kushshah.net:3001">
+          <button class="dash-item">Uptime Kuma</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
